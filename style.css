@@ -1,0 +1,63 @@
+h1{font-family: Arial, Helvetica, sans-serif;
+font-size: 37px;
+color: crimson;}
+body{font-family: Arial, Helvetica, sans-serif; background-color: aquamarine;}/* CSS has a selector, e.g. a tag, then propertiy to be changed, the value to change it to and then closed with curly braces */
+
+.rpgs {
+    color: darkmagenta;
+     font-size:  20px;
+     background-color: bisque;
+    }
+
+.country {
+    font-weight: bold;
+}
+#monty {
+    color: white;
+    background-color: Black;
+}
+
+#linux {
+    color: whitesmoke;
+    background-color: brown;
+
+}
+.sport {
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    color: red;
+    font-size: 22px;
+}
+.lists{
+    display: flex;
+    border: 10px black solid;
+    flex-flow: column-reverse;
+    justify-content: right;
+}
+
+.navbar{
+    display: flex;
+    border: black solid 1px;
+    justify-content: center;
+}
+.rightjust{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-item{
+    
+}
+/*selector {property: value;
+ property: value;
+ }*/
+
+ /* Class selectors use . 
+ class allows us to target multiple elements on our page,
+  ID selectors use # 
+  ID is used to target a single elelment though both can be used.
+    ID overrides class */
+
+ /* .classname { property: value; }
+
+ /* #idvaulue {property: value;}
