@@ -45,8 +45,31 @@ body{font-family: Arial, Helvetica, sans-serif; background-color: aquamarine;}/*
     display: flex;
     justify-content: flex-end;
 }
-.footer-item{
-    
+footer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footeritem{
+    display: flex;
+    flex-flow: row;
+    border-radius: 5px;
+    border: blacks 3px;
+    padding: 5px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: blue;
+    color: orange;
+}
+.footeritem:hover {
+    color: blue;
+    background-color: orange;
+}
+
+.navitem {
+    padding: 5px;
+    border: black solid 1px;
 }
 /*selector {property: value;
  property: value;
